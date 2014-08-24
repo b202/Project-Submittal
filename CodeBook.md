@@ -3,16 +3,16 @@ Code Book submittal
 
 The following table includes important information about the variables used in the project submission.
 
--tBodyAcc-mean()-X
---units: g
---time domain signal
---body acceleration signal
---
-tBodyAcc-mean()-Y
-tBodyAcc-mean()-Z
-tBodyAcc-std()-X
-tBodyAcc-std()-Y
-tBodyAcc-std()-Z
+*  tBodyAcc-mean()-X  
+**  units: g  
+** time domain signal  
+** body acceleration signal  
+
+tBodyAcc-mean()-Y  
+tBodyAcc-mean()-Z  
+tBodyAcc-std()-X  
+tBodyAcc-std()-Y  
+tBodyAcc-std()-Z  
 tGravityAcc-mean()-X
 tGravityAcc-mean()-Y
 tGravityAcc-mean()-Z
