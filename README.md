@@ -32,7 +32,7 @@ subject_train <- read.table("./train/subject_train.txt", col.names="subject_ID")
 labels <- read.table("activity_labels.txt")
 ```
 
-```{r}
+```
 ##PROJECT STEP 1##
 ##Merges the training and the test sets to create one data set##
 #combines the test and train data frames
