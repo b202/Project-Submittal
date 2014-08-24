@@ -62,7 +62,7 @@ positions <- sort(as.vector(rbind(means_pos, std_pos)))
 sub_table <- full_table[,positions]
 ```
 
-This section
+This section creates a vector of the activity descriptors that match the order of the activity IDs and then reassigns the descriptive name to the data frame instead of the activity ID.
 ```
 ##PROJECT STEP 3
 ##Uses descriptive activity names to name the activities in the data set
@@ -74,14 +74,14 @@ desc_activity <- as.vector(labels[as.numeric(sub_table$activity_ID),2])
 sub_table$activity_ID <- desc_activity
 ```
 
-This section
+This section was intended to label the data frame with descriptive variable names, but the method that was used in this code never lost the original variable names from the original data.
 ```
 ##PROJECT STEP 4
 ##Appropriately labels the data set with descriptive variable names
 #The data frames have descriptive variable names already
 ```
 
-This section
+This section creates the last tidy data set that is based on the last data set, but contains only the mean of each variable for each activity and subject. Lastly, it sends the table to a text file called 'final.txt'.
 ```
 ##PROJECT STEP 5
 ##Creates a second, independent tidy data set with the average of each variable
